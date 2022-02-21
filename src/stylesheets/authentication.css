@@ -16,6 +16,7 @@ input {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   padding: 50px;
+  z-index: 999;
 }
 
 .register-parent {
@@ -26,4 +27,48 @@ input {
 .register-parent .row {
   height: 100vh;
   align-items: center;
+}
+
+.register-top {
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #303f9f !important;
+}
+
+.z1 {
+  z-index: 1 !important;
+}
+
+.login-form {
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 50px;
+  z-index: 999;
+}
+
+.login-parent {
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.login-parent .row {
+  height: 100vh;
+  align-items: center;
+}
+
+.login-bottom {
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #303f9f !important;
+}
+
+.z1 {
+  z-index: 1 !important;
 }

@@ -8,10 +8,13 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import ProductInfo from './pages/ProductInfo';
 import RegisterPage from './pages/RegisterPage';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div className='App'>
+      <ToastContainer />
       <BrowserRouter>
         <Routes>
           <Route path='/' exact element={<HomePage />} />
